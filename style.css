@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding:0;
+}
+#money ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+
+    padding: 0;
+}
+#money li{
+    margin: 50px auto;
+    align-items: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+li h1{
+    font-size: 20px;
+    text-align: center;
+}
+li img{
+    display: flex;
+    margin: auto;
+    width: 80px;
+
+}
