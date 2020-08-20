@@ -23,5 +23,19 @@ li img{
     display: flex;
     margin: auto;
     width: 80px;
+}
 
+.tente{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+}
+.tente img{
+    width: 140px;
+}
+.tente h1{
+    
 }
