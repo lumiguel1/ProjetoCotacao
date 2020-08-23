@@ -24,18 +24,11 @@ li img{
     margin: auto;
     width: 80px;
 }
-
-.tente{
-    width: 300px;
-    display: flex;
-    flex-direction: column;
+#result-container{
+    display: none;
+    
     align-items: center;
+    justify-content: center;
 
-    margin-top: 40px;
-}
-.tente img{
-    width: 140px;
-}
-.tente h1{
     
 }
