@@ -24,11 +24,27 @@ li img{
     margin: auto;
     width: 80px;
 }
-#result-container{
-    display: none;
-    
+.result-input{
+    margin-left: 20px;
+    display: flex;
     align-items: center;
+}
+.result-input h4{
+    margin: 0;
+    margin-right: 10px;
+    
+}
+.result-input input{
+    font-size: 20px;
+    height: 40px;
+}
+#result-container{
+    width: auto;
+    height: 200px;
+    display: flex;
+    
     justify-content: center;
+    align-items: center;
 
     
 }
