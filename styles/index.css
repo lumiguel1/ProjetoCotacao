@@ -2,11 +2,36 @@ body{
     margin: 0;
     padding:0;
 }
+#bodystyle{
+    background-color: #f2f2f2;
+}
+.navigation{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #6600ff;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+
+    border-radius: 0px 0px 15px 15px;
+}
+#bodystyle .navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.navigation h1{
+    margin: 20px 18% 20px 357px;
+
+    color: white;
+}
 #money ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 0px;
-
     padding: 0;
 }
 #money li{
@@ -36,7 +61,10 @@ li img{
 }
 .result-input input{
     font-size: 20px;
-    height: 40px;
+    margin-top: 4px;
+    height: 37px;
+    border-radius: 15px 15px 15px 15px;
+    
 }
 #result-container{
     width: auto;
@@ -45,6 +73,4 @@ li img{
     
     justify-content: center;
     align-items: center;
-
-    
 }
