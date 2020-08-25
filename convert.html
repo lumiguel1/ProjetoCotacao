@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão</title>
+    <link rel="shortcut icon" href="./assets/money.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./Styles/convert.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body id="funfa">
+    <nav class="navigation">
+        <a href="index.html">Inicio</a>
+        <h1>Conversão de Moedas</h1>
+    </nav>
+
+    <!-- Lista de Moedas -->
+
+    <div id="money">
+        <div class="teste">
+            <li>
+                <img src="./assets/bitcoin.png" alt="Bitcoin" onclick="validar()" id='1'>
+                <h1>Bitcoin</h1>
+            </li>
+        </div>
+
+        <div class="teste">
+            <li>
+                <img src="./assets/coin.png" alt="Euro" onclick="validar2()" id='2'>
+                <h1>Dólar</h1>
+            </li>
+        </div>
+
+        <div class="teste">
+            <li>
+                <img src="./assets/canadian-dollar.png" alt="Dólar Canadense" onclick="validar3()" id='3'>
+                <h1>Dólar Canadense</h1>
+            </li>
+        </div>
+
+        <div class="teste">
+            <li>
+                <img src="./assets/libra.png" alt="Libra" onclick="validar4()" id='4'>
+                <h1>Libra</h1>
+            </li>
+        </div>
+
+        <div class="teste">
+            <li>
+                <img src="./assets/euro.png" alt="Euro" onclick="validar5()" id='5'>
+                <h1>Euro</h1>
+            </li>
+        </div>
+
+        <div class="teste">
+            <li>
+                <img src="./assets/franco-suico.png" alt="Franco Suiço" onclick="validar6()" id='6'>
+                <h1>Franco Suiço</h1>
+            </li>
+        </div>
+
+        <div class="teste">
+            <li>
+                <img src="./assets/yen.png" alt="Iene" onclick="validar7()" id='7'>
+                <h1>Iene</h1>
+            </li>
+        </div>
+
+        <div class="teste">
+            <li>
+                <img src="./assets/yuan.png" alt="Yuan" onclick="validar8()" id='8'>
+                <h1>Yuan</h1>
+            </li>
+        </div>
+    </div>
+
+    <div class="tudo">
+        <!-- Imagem Inicial -->
+        <span>
+            <img src="./Imagens/logo.png" alt="" id='logo'>
+        </span>
+
+        <form action="">
+            <!-- Campo -->
+            Valor em Reais R$: <input type="text" id="valor1" value="">
+        </form>
+
+        <form action="">
+            Conversão: <input type="text" disabled size="30" id="valor" value="">
+        </form>
+
+        <button onclick="enviar()">Escolher Moeda</button>
+    </div>
+    <div class="content-light">
+        <span onclick="tente2()" id="On2">
+            <img class="bright" src="./Imagens/white.svg" alt="">
+        </span>
+        <span onclick="tente()" id="On">
+            <img class="bright" src="./Imagens/black.svg" alt="">
+        </span>
+    </div>
+
+    <script src="./Scripts/convert.js"></script>
+</body>
+
+</html>
