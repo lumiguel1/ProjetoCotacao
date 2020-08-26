@@ -10,14 +10,18 @@ function enviar(){
     }
 }
 function tente(){
-    document.getElementById('funfa').style.backgroundColor="#000000"
+    document.getElementById('funfa').style.backgroundColor="#1a1a1a"
     document.getElementById('On2').style.display="flex";
     document.getElementById('On').style.display="none";
+    document.getElementById('inputFont1').style.color="#ffffff";
+    document.getElementById('inputFont2').style.color="#ffffff";
 }
 function tente2(){
     document.getElementById('funfa').style.backgroundColor="#f2f2f2"
     document.getElementById('On').style.display="flex";
     document.getElementById('On2').style.display="none";
+    document.getElementById('inputFont1').style.color="#000000";
+    document.getElementById('inputFont2').style.color="#000000";
 }
 function linkCoin(){
     var url = 'https://economia.awesomeapi.com.br/all'
