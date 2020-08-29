@@ -82,9 +82,14 @@ li img{
 .tudo form{
     margin-left: 75px;
 }
-
 .tudo img{
     width: 200px;
+}
+button{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content-light{
     display: flex;
