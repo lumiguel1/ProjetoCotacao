@@ -1,6 +1,20 @@
 function showContent(){
     document.getElementById('result-container').style.display = "flex"
 }
+function tente(){
+    document.getElementById('bodystyle').style.backgroundColor="#1a1a1a"
+    document.getElementById('On2').style.display="flex";
+    document.getElementById('On').style.display="none";
+    document.getElementById('result-container').style.color="#ffffff";
+    document.getElementById('list').style.color="#ffffff";
+}
+function tente2(){
+    document.getElementById('bodystyle').style.backgroundColor="#f2f2f2"
+    document.getElementById('On').style.display="flex";
+    document.getElementById('On2').style.display="none";
+    document.getElementById('result-container').style.color="#000000";
+    document.getElementById('list').style.color="#000000";
+}
 
 async function clicar1(){
     showContent();

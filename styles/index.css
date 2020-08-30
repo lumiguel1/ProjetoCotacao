@@ -35,7 +35,7 @@ body{
     padding: 0;
 }
 #money li{
-    margin: 50px auto;
+    margin: 50px auto 0px;
     align-items: center;
     list-style-type: none;
     cursor: pointer;
@@ -48,6 +48,9 @@ li img{
     display: flex;
     margin: auto;
     width: 80px;
+}
+textarea:focus, input:focus, select:focus {
+    outline: 0;
 }
 .result-input{
     margin-left: 20px;
@@ -73,4 +76,19 @@ li img{
     
     justify-content: center;
     align-items: center;
+}
+.content-light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#On2{
+    display:none;
+}
+#On{
+}
+
+.bright{
+    width: 70px;
+    cursor: pointer;
 }
